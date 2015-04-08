@@ -1,0 +1,66 @@
+
+
+.about-image{
+	max-height:200px;
+	border-radius:100%;
+	display:inline-block;
+	margin-right:15px;
+	margin-left:15px;
+}
+
+.test{
+	text-align:center;
+}
+
+.about-us {
+	border-top:2px solid lightgrey;
+	width:75%;
+	margin-right:12.5%;
+	margin-left:12.5%;
+	margin-top:20px;
+}
+.about-us h2 {
+	text-align:center;
+}
+
+footer {
+  font-size:0.75em;
+  text-align:center;
+  padding-top:50px;
+  color:#ccc;
+  clear:both;
+  font-size:1em;
+}
+
+.social-icon {
+  width:30px;
+  height:30px;
+  margin: 0 5px;
+}
+
+#laughing-lady {
+	display:block;
+	padding:5%;
+}
+
+#test-image{
+	max-width:100%;
+	height:auto;
+	text-align:center;
+	border-radius:10px;
+	box-shadow: 0 0 .25em orange;
+}
+
+
+@media only screen and (max-width:736px){
+ .about-image{
+ 	max-height:200px;
+ }
+
+}
+
+@media only screen and (max-width:500px){
+.about-image {
+	max-height:150px;
+}
+}
